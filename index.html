@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Damage Calc</title>
+	</head>
+	<body>
+		<div></div>
+		<canvas id="view"></canvas>
+		<script>
+			function calc(baseDamage, critChance, critMult) {
+				return baseDamage * ( 1 + critChance * critMult);
+			}
+		</script>
+	</body>
+</html>
